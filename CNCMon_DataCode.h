@@ -1,5 +1,5 @@
 #ifndef CNCMON_DATACODE_H__
-#defien CNCMON_DATACODE_H__
+#define CNCMON_DATACODE_H__
 
 // Defining Default values
 #define SelfTestStatusCode_AllOk 0xFF
