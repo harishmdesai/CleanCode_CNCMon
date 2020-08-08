@@ -7,8 +7,11 @@ typedef enum
     CNCPartDimenVariation,
     CNCOnDutration,
     CNCSelfTestStatus,
-    CNCMonListended
-}CNC_MonList;
+    CNCMonList
+}CNC_DataMonIndex;
+
+#define CNCMaxTemp 35 // In Degree Celsius
+#define CNCMaxOpDuration 360 //In Minutes
 
 
 #endif
