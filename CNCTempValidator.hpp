@@ -4,6 +4,6 @@
 extern void fun_SetCurrentTemp(float l_CNCCurrentValue);
 extern bool CNCTempOutOfRange(void);
 
-extern bool Fun_GetCurrentTemp(void);
+extern void Fun_GetCurrentTemp(void);
 
 #endif
