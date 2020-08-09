@@ -1,8 +1,8 @@
 #include "CNCValidator.hpp"
-#include "CNCSelfTestValidation.hpp"
-#include "CNCTempValidator.hpp"
-#include "CNCDurationValidation.hpp"
-#include "CNCDiamValidator.hpp"
+//#include "CNCSelfTestValidation.hpp"
+//#include "CNCTempValidator.hpp"
+//#include "CNCDurationValidation.hpp"
+//#include "CNCDiamValidator.hpp"
 
 typedef enum 
 {
