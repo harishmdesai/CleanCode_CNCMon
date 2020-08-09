@@ -8,7 +8,7 @@ void fun_SetCurrentTemp(float l_CNCCurrentValue)
 	g_CNCCurrentValue.tempearature = l_CNCCurrentValue;
 }
 
-bool Fun_GetCurrentTemp(void)
+void Fun_GetCurrentTemp(void)
 {
 	float l_Temp = g_CNCCurrentValue.tempearature;
 	TempOutofRange = !if(IsParmWithinARange(l_Temp, AllowedTempRange));
