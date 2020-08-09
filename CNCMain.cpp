@@ -59,7 +59,10 @@ int main ()
 		CNCSWInit = FALSE;
 	}
 	/*Get the Mon data cyclically*/
-	
+	Fun_GetCurrentTemp();
+	Fun_GetCurrentDuration();
+	Fun_GetCurrentDiam();
+	Fun_GetCurrentDiam();
 	
 	/*Get the status*/
     IsEnvironmentFailed = CNCEnvironmentValidate();
