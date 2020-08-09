@@ -1,7 +1,7 @@
 #ifndef "CNCDIMAVALIDATION_HPP__"
 #define "CNCDIMAVALIDATION_HPP__"
 
-extern bool Fun_GetCurrentDiam(void);
+extern void Fun_GetCurrentDiam(void);
 
 extern bool CNCDiamValidator(void);
 
