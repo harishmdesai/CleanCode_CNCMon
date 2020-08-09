@@ -1,9 +1,9 @@
-#include "IStatusCode.hpp"
-#include "ICNC.hpp"
 #include <gtest/gtest.h>
-#include "IDimensionVariation.hpp"
-#include "IOperatingHour.hpp"
-#include "IOperatingTemperature.hpp"
+#include "CNCValidator.hpp"
+#include "CNCSelfTestValidation.hpp"
+#include "CNCTempValidator.hpp"
+#include "CNCDurationValidation.hpp"
+#include "CNCDiamValidator.hpp"
 
 
 TEST(StatusCode, Empty) { 
