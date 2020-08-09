@@ -3,7 +3,7 @@
 static bool DurationExceeded ;
 #define AllowedDurationOperation 360 /*In Minutes*/
 
-bool Fun_GetCurrentDuration(void)
+void Fun_GetCurrentDuration(void)
 {
 	float l_Duration = g_CNCCurrentValue.Duration;
 	DurationExceeded = !if(IsParmWithinARange(l_Duration, AllowedDurationOperation));
