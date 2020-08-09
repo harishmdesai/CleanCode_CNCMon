@@ -1,3 +1,5 @@
+
+#if 0
 #ifndef CNCMAIN_HPP__
 #define CNCMAIN_HPP__
 
@@ -14,4 +16,5 @@ typedef enum
 #define CNCMaxOpDuration 360 //In Minutes
 
 
+#endif
 #endif
