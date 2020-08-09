@@ -3,7 +3,7 @@
 static bool DimensionOutOfRange ;
 #define AllowedDiamRange 0.05
 
-bool Fun_GetCurrentDiam()
+void Fun_GetCurrentDiam()
 {
 	float l_Diam = g_CNCCurrentValue.Diameter;
 	DimensionOutOfRange = !if(IsParmWithinARange(l_Diam, AllowedDiamRange));
