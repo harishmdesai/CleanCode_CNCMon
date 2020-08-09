@@ -2,7 +2,7 @@
 #define CNCDURATIONVALIDATION_H__
 
 
-extern bool Fun_GetCurrentDuration(void);
+extern void Fun_GetCurrentDuration(void);
 
 extern bool CNCDurationexceeded(void);
 
