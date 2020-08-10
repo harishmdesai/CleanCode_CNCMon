@@ -1,5 +1,5 @@
-#ifndef "CNCDIMAVALIDATION_HPP__"
-#define "CNCDIMAVALIDATION_HPP__"
+#ifndef CNCDIMAVALIDATION_HPP__
+#define CNCDIMAVALIDATION_HPP__
 
 extern void Fun_GetCurrentDiam(void);
 
