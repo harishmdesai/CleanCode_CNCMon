@@ -21,6 +21,8 @@ typedef enum
 	CNCSelfTestConfigData
 }CNC_SelfTestStatus;
 
+
+/*Just for test*/
 typedef struct 
 {
 	CNC_SelfTestStatus Selfteststatus;
